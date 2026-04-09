@@ -173,3 +173,39 @@ button:hover {
     color: white;
     margin-top: 10px;
 }
+
+/* AKSES DITOLAK */
+.akses-ditolak{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    text-align:center;
+    background:#0f172a;
+}
+
+.akses-ditolak h1{
+    font-size:50px;
+    color:#ef4444;
+    margin-bottom:10px;
+}
+
+.akses-ditolak p{
+    font-size:18px;
+    color:#cbd5f5;
+    margin-bottom:20px;
+}
+
+.akses-ditolak .btn{
+    background:#38bdf8;
+    padding:10px 20px;
+    border-radius:8px;
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.akses-ditolak .btn:hover{
+    background:#0ea5e9;
+}

@@ -1,5 +1,6 @@
 <?php
 session_start();
+require '../middleware_user.php';
 
 $index = $_GET["index"];
 

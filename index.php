@@ -1,4 +1,5 @@
 <?php
+require 'middleware_admin.php';
 require 'functions.php';
 
 // ambil data dari tabel tiket

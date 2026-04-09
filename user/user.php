@@ -1,8 +1,7 @@
 <?php
-session_start();
+require '../middleware_user.php';
 require '../functions.php';
 
-// ambil data tiket dari database
 $tiket = query("SELECT * FROM tpesawat");
 ?>
 
@@ -53,3 +52,4 @@ $tiket = query("SELECT * FROM tpesawat");
 
 </body>
 </html>
+```
